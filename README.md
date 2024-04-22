@@ -22,7 +22,6 @@ O que foi utilizado:
 - DynamoDb;
 - Mediatr;
 - CQRS;
-- MVC;
 - Testes Unitários;
 - Domain Driven Design;
 - SOLID;
