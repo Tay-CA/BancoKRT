@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GestaoLimitesContas.App": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

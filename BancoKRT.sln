@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D97D7EEE-E4A7-4738-A926-89C53ECB875E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{CCF13EB1-055C-4FE1-A8D6-4BD1D4E39426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{956420CD-8B9E-4BBC-BEF3-2B98C54E79E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{F34BC4D7-3EC5-436A-B7AB-B766E25AC327}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoLimitesContas.Api", "GestaoLimitesContas.Api\GestaoLimitesContas.Api.csproj", "{42AF32B7-DB8A-4DB5-9542-6FCFD0CE3249}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoLimitesContas.Domain", "GestaoLimitesContas.Domain\GestaoLimitesContas.Domain.csproj", "{DF42452C-F0B0-405F-8B31-E15C873DBAE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoLimitesContas.Infraestructure", "GestaoLimitesContas.Infraestructure\GestaoLimitesContas.Infraestructure.csproj", "{61C0559A-2B21-486C-8C16-FF05794FC3D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F43AAE8D-DD09-4BE8-AA2E-18A71DA1433E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoLimitesContas.App", "GestaoLimitesContas.App\GestaoLimitesContas.App.csproj", "{38A56D0C-F1D2-4B98-BBAC-F91F38CD7B1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ADA8B9C2-1A72-4830-B045-010DA4E28514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLimitesContas.Shared", "GestaoLimitesContas.Shared\GestaoLimitesContas.Shared.csproj", "{66F84E9C-0594-4F8B-B2D6-23614D7E2975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoLimitesContas.Tests", "GestaoLimitesContas.Tests\GestaoLimitesContas.Tests.csproj", "{B54A0623-34B5-44C4-BDC8-398C8E498290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42AF32B7-DB8A-4DB5-9542-6FCFD0CE3249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AF32B7-DB8A-4DB5-9542-6FCFD0CE3249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AF32B7-DB8A-4DB5-9542-6FCFD0CE3249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AF32B7-DB8A-4DB5-9542-6FCFD0CE3249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF42452C-F0B0-405F-8B31-E15C873DBAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF42452C-F0B0-405F-8B31-E15C873DBAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF42452C-F0B0-405F-8B31-E15C873DBAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF42452C-F0B0-405F-8B31-E15C873DBAE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C0559A-2B21-486C-8C16-FF05794FC3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C0559A-2B21-486C-8C16-FF05794FC3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C0559A-2B21-486C-8C16-FF05794FC3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C0559A-2B21-486C-8C16-FF05794FC3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A56D0C-F1D2-4B98-BBAC-F91F38CD7B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A56D0C-F1D2-4B98-BBAC-F91F38CD7B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A56D0C-F1D2-4B98-BBAC-F91F38CD7B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A56D0C-F1D2-4B98-BBAC-F91F38CD7B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F84E9C-0594-4F8B-B2D6-23614D7E2975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F84E9C-0594-4F8B-B2D6-23614D7E2975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F84E9C-0594-4F8B-B2D6-23614D7E2975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F84E9C-0594-4F8B-B2D6-23614D7E2975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54A0623-34B5-44C4-BDC8-398C8E498290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54A0623-34B5-44C4-BDC8-398C8E498290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54A0623-34B5-44C4-BDC8-398C8E498290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54A0623-34B5-44C4-BDC8-398C8E498290}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42AF32B7-DB8A-4DB5-9542-6FCFD0CE3249} = {D97D7EEE-E4A7-4738-A926-89C53ECB875E}
+		{DF42452C-F0B0-405F-8B31-E15C873DBAE2} = {956420CD-8B9E-4BBC-BEF3-2B98C54E79E3}
+		{61C0559A-2B21-486C-8C16-FF05794FC3D9} = {F34BC4D7-3EC5-436A-B7AB-B766E25AC327}
+		{38A56D0C-F1D2-4B98-BBAC-F91F38CD7B1C} = {CCF13EB1-055C-4FE1-A8D6-4BD1D4E39426}
+		{66F84E9C-0594-4F8B-B2D6-23614D7E2975} = {ADA8B9C2-1A72-4830-B045-010DA4E28514}
+		{B54A0623-34B5-44C4-BDC8-398C8E498290} = {F43AAE8D-DD09-4BE8-AA2E-18A71DA1433E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52539B0E-DB95-431E-858C-C31F54B7D8E8}
+	EndGlobalSection
+EndGlobal

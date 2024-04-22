@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.302.19" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoLimitesContas.Domain\GestaoLimitesContas.Domain.csproj" />
+    <ProjectReference Include="..\GestaoLimitesContas.Infraestructure\GestaoLimitesContas.Infraestructure.csproj" />
+    <ProjectReference Include="..\GestaoLimitesContas.Shared\GestaoLimitesContas.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
